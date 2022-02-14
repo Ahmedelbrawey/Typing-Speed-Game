@@ -2,14 +2,14 @@
 const words = [
     'Copy',
     'Blog',
-    // 'Bookmark',
-    // 'Browser',
-    // 'Compress',
-    // 'Data',
-    // 'Desktop',
-    // 'Download',
-    // 'Keyboard',
-    // 'Laptop'
+    'Bookmark',
+    'Browser',
+    'Compress',
+    'Data',
+    'Desktop',
+    'Download',
+    'Keyboard',
+    'Laptop'
 ];
 
 //Add Levels
