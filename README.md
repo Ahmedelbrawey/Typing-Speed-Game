@@ -1,5 +1,5 @@
 # Typing-Speed-Game
-![Logo](back.jpg)
+![Logo](images/back.jpg)
 
 
 
