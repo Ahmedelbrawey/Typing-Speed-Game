@@ -17,16 +17,22 @@
 </head>
 <body>
     <div class="title">
-        <h1>Typing Speed Test Game</h1>
+            <div class="text"> <h1><span class="auto-input"></span></h1> </div> 
+            <div class="img"> <img src="images/back.jpg"> </div>  
     </div>
     <div class="container-md">
 
         <div class="message">
-            You Are Playing On 
-            <span class="level"></span>
-            level& You Have 
-            <span class="second"></span>
-            Seconds To Type This Word.
+            <select class="box-select" onchange="set_Levels(this.value)">
+                <option id="opt-pl-se">Please Selecte</option>
+                <option>Easy</option>
+                <option>Normal</option>
+                <option>Hard</option>
+            </select>
+            <div>
+                <span class="second"></span>
+                Seconds
+            </div>
         </div>
 
         <div class="but-start">Start Playing</div>
@@ -46,13 +52,14 @@
         <div class="finsh"></div>
     </div>
     <div class="footer">
-        Typing Speed || Games © 2022
+        Typing Speed || Games © 2022 By Ahmed Sobih 
     </div>
 
     <!-- Js Fails -->
     <script src="js/popper.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="js/main.js"></script>    
 
 </body>
