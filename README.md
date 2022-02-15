@@ -14,7 +14,7 @@
 # Typing-Speed-Game
 
 
-A simple Typing-Speed-Game By HTML & CSS & JavaScript. 
+A simple Typing-Speed-Game By HTML & CSS & JavaScript. [**Click Here To live**](https://ahmedelbrawey.github.io/Typing-Speed-Game/)
 
 In a js file that contains comments for each code and function to explain the code and how the project works
 
